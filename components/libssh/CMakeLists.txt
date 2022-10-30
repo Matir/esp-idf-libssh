@@ -13,6 +13,7 @@ set(srcs
   ${SRC}/config.c
   ${SRC}/connect.c
   ${SRC}/connector.c
+  ${SRC}/crypto_common.c
   ${SRC}/curve25519.c
   ${SRC}/dh.c
   ${SRC}/dh-gex.c
@@ -25,6 +26,7 @@ set(srcs
   ${SRC}/external/ge25519.c
   ${SRC}/external/sc25519.c
   ${SRC}/getpass.c
+  ${SRC}/getrandom_mbedcrypto.c
   ${SRC}/init.c
   ${SRC}/kdf.c
   ${SRC}/kex.c
