@@ -37,6 +37,7 @@ set(srcs
   ${SRC}/log.c
   ${SRC}/match.c
   ${SRC}/mbedcrypto_missing.c
+  ${SRC}/md_mbedcrypto.c
   ${SRC}/messages.c
   ${SRC}/misc.c
   ${SRC}/options.c
